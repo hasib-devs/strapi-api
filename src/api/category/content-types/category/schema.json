@@ -23,6 +23,19 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "mappedBy": "categories"
     }
   }
 }
