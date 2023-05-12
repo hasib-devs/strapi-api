@@ -25,6 +25,10 @@
   },
   "servers": [
     {
+      "url": "https://strapi.hasib.dev/api",
+      "description": "Live server"
+    },
+    {
       "url": "http://localhost:1337/api",
       "description": "Development server"
     }
