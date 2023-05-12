@@ -4,7 +4,8 @@
   "info": {
     "singularName": "category",
     "pluralName": "categories",
-    "displayName": "Category"
+    "displayName": "Category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,6 +19,10 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }
