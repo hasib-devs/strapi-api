@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-05-12T17:19:58.456Z"
+    "x-generation-date": "2023-05-12T18:29:49.259Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -24,10 +24,6 @@
     ]
   },
   "servers": [
-    {
-      "url": "https://strapi.hasib.dev/api",
-      "description": "Live server"
-    },
     {
       "url": "http://localhost:1337/api",
       "description": "Development server"
