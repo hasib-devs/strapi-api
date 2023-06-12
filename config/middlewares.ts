@@ -9,7 +9,7 @@ export default ({env}) => (
     'strapi::session',
     'strapi::favicon',
     'strapi::public',
-  
+    env('DISK_DRIVER') !== 'h2' ? 'strapi::security' :
     {
       name: 'strapi::security',
       config: {
