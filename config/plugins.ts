@@ -29,6 +29,7 @@ export default ({env}) => ({
           path: '/documentation',
         },
         servers: [
+          { url: `${env('APP_BASE_URL')}/api`, description: 'Current server' },
           { url: 'http://localhost:1337/api', description: 'Development server' },
           { url: 'https://strapi.hasib.dev/api', description: 'Production server' },
         ],
