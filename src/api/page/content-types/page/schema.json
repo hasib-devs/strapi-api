@@ -27,6 +27,9 @@
     },
     "action": {
       "type": "string"
+    },
+    "settings": {
+      "type": "json"
     }
   }
 }
